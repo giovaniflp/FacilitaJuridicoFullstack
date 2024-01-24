@@ -119,7 +119,7 @@ export default function Home() {
             <Link className="bg-red-400 hover:bg-red-700 duration-500 p-2 rounded-lg w-40 text-center" href={"/"}>Voltar</Link>
             {modal && <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black rounded-lg p-4 flex flex-col overflow-y-auto h-5/6 w-5/6 backdrop-blur-sm">
                 <h2 className="mb-4 pl-2">Rota de entrega</h2>
-                <h3 className="mb-4 pl-2">Início -> X : 0 | Y : 0</h3>
+                <h3 className="mb-4 pl-2">Início -&gt; X : 0 | Y : 0</h3>
               {rota.map((rota, index) => (
                   <ul className="bg-gray-700" key={rota.id}>
                       <li className="pl-2">{index + 1}º Cliente: {rota.nome} - Coordenadas = X: {rota.x} | Y: {rota.y}</li>
